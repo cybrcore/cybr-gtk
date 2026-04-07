@@ -1,30 +1,22 @@
-```
- ░▒▓██████▓▒░▒▓████████▓▒░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒░        ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒▒▓███▓▒░ ░▒▓█▓▒░   ░▒▓███████▓▒░  
-░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░ 
-░▒▓█▓▒░░▒▓█▓▒░ ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░ 
- ░▒▓██████▓▒░  ░▒▓█▓▒░   ░▒▓█▓▒░░▒▓█▓▒░ 
-```
-
-<img src="../assets/inspiration/insp-gtk.png"/></td>
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybr-gtk-banner.png" height=200px/>
 
 > [!CAUTION]
-> This theme is in early stage. Major refactor is in progress. Use at your own risk, ideally only if you plan to [contribute](../CONTRIBUTING.md).
+> This theme is in early stage. Major refactor is in pipeline. Use at your own risk, ideally only if you plan to [contribute](../CONTRIBUTING.md).
+
+# Showcase
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/showcase/cybr-gtk.png"/>
 
 # Steps
 ## 0. Before you start
-- Make sure [Geist Mono Nerd Font](../INSTALL.md#prerequisites--setup) is installed
 - Make sure GTK is installed: `sudo pacman -S gtk-2.0 gtk-3.0`
-- See [Installation Guide](../INSTALL.md) if you haven't set up prerequisites yet
+- See [Installation Guide](https://github.com/cybrcore/cybrland/blob/main/INSTALL.md) if you`re coming from [cybr-hyprland](https://github.com/cybrcore/cybrland) and haven't set up prerequisites yet
 
 ## 1. Download GTK Theme
 ```sh
 # Download only the gtk directory and install the CYBRgtk theme by creating ~/.themes directory and moving theme inside the ~/.themes dir
 git clone --depth=1 --filter=blob:none --no-checkout https://github.com/scherrer-txt/cybrland.git && cd cybrland && git sparse-checkout init --cone && git sparse-checkout set gtk && git checkout main && mkdir -p ~/.themes && mv gtk/oomox-CYBRgtk ~/.themes/ && cd ~ && rm -rf cybrland
 ```
-↑ Unsure what this does? [Explanation](../INSTALL.md#How-sparse-checkout-works)  
+↑ Unsure what this does? [Explanation](https://github.com/cybrcore/cybrland/blob/main/INSTALL.md#How-sparse-checkout-works)  
 
 ## 2. Verify installation
 ```sh
