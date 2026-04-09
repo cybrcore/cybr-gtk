@@ -9,14 +9,14 @@
 # Steps
 ## 0. Before you start
 - Make sure GTK is installed: `sudo pacman -S gtk-2.0 gtk-3.0`
-- See [Installation Guide](https://github.com/cybrcore/cybrland/blob/main/INSTALL.md) if you`re coming from [cybr-hyprland](https://github.com/cybrcore/cybrland) and haven't set up prerequisites yet
+- See [Installation Guide](https://github.com/cybrcore/cybrdots/blob/main/INSTALL.md) if you're coming from [cybr-hyprland](https://github.com/cybrcore/cybr-hyprland) and haven't set up prerequisites yet
 
 ## 1. Download GTK Theme
 ```sh
 # Download only the gtk directory and install the CYBRgtk theme by creating ~/.themes directory and moving theme inside the ~/.themes dir
-git clone --depth=1 --filter=blob:none --no-checkout https://github.com/scherrer-txt/cybrland.git && cd cybrland && git sparse-checkout init --cone && git sparse-checkout set gtk && git checkout main && mkdir -p ~/.themes && mv gtk/oomox-CYBRgtk ~/.themes/ && cd ~ && rm -rf cybrland
+git clone --depth=1 --filter=blob:none --no-checkout https://github.com/cybrcore/cybr-waybar.git && cd cybr-waybar && git sparse-checkout init --cone && git sparse-checkout set waybar && git checkout main && mv waybar ~/.config/ && cd ~ && rm -rf cybr-waybar
 ```
-↑ Unsure what this does? [Explanation](https://github.com/cybrcore/cybrland/blob/main/INSTALL.md#How-sparse-checkout-works)  
+↑ Unsure what this does? [Explanation](https://github.com/cybrcore/cybrdots/blob/main/INSTALL.md#How-sparse-checkout-works)  
 
 ## 2. Verify installation
 ```sh
