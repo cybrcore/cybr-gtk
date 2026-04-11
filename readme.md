@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybr-gtk-banner.png" height=200px/>
+<img src="https://raw.githubusercontent.com/cybrcore/cybrcore/refs/heads/main/assets/repo-banners/cybr-gtk-banner-top.png"/>
 
 > [!CAUTION]
 > This theme is in early stage. Major refactor is in pipeline. Use at your own risk, ideally only if you plan to [contribute](../CONTRIBUTING.md).
